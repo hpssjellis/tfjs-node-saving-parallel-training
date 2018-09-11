@@ -15,12 +15,13 @@ On cloud nine use these steps. (On your machine you may have to place "sudo" inf
 1. chmod 766 multi-layer-1.txt 
 1. chmod 766 multi-layer-2.txt 
 1. chmod 766 multi-layer-3.txt 
-1. node server.js
+1. edit the password and the URL inside the code
+1. node multi-layer-server.js
 
-1. (Load the webpage however that happens on your server. Hopefully you can click a link in the output from server.js)
+1. (Load the webpage however that happens on your server. Hopefully you can click a link in the output from multi-layer-server.js)
 
 Notes:   
--- Look at the server.js code, near the bottom of the page and change the password. Enter that password in the browser box and click "store info"
+-- Look at the multi-layer-server.js code, near the bottom of the page and change the password. Enter that password in the browser box and click "store info"
 
 -- Look at the server code and change the URL (also near the bottom of the page). This must be your server URL for this file.
 
