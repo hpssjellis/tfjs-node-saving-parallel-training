@@ -12,8 +12,10 @@ On cloud nine use these steps. (On your machine you may have to place "sudo" inf
 1. cd nodejs
 1. nvm install 8 (Only needed on cloud9 to insure using nodejs version 8 or above)
 1. npm install
-1. chmod 766 tfjs-layer-0.txt    (Set permissions on the data files so web users can write to the files)
-1. chmod 766 tfjs-layer-1.txt 
+1. chmod 766 multi-layer-0.txt    (Set permissions on the data files so web users can write to the files)
+1. chmod 766 multi-layer-1.txt 
+1. chmod 766 multi-layer-2.txt 
+1. chmod 766 multi-layer-3.txt 
 1. node server.js
 
 1. (Load the webpage however that happens on your server. Hopefully you can click a link in the output from server.js)
@@ -23,7 +25,7 @@ Notes:
 
 -- Look at the server code and change the URL (also near the bottom of the page). This must be your server URL for this file.
 
--- Presently the page is set to suto reload. Click stop or deselect auto so that you can have a look at how it works.
+-- Presently the page is set to auto reload. Click pause to deselect auto so that you can have a look at how it works.
 
--- uses the package fs which seems to be deprecated.
+
 
