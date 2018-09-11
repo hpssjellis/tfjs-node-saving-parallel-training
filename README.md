@@ -27,6 +27,7 @@ Notes:
 
 -- Presently the page is set to auto reload. Click pause to deselect auto so that you can have a look at how it works.
 
+-- If your node server is private you may have to make it shareable.
 
 
 ![Also works on multiple computers](node-train.gif)
